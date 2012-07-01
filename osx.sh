@@ -1,3 +1,4 @@
+brew install nmap wget maven curl git-flow
 # Mostly copied from: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
 defaults write com.apple.dock no-glass -bool true
@@ -26,3 +27,5 @@ defaults write org.x.X11 wm_ffm -boolean true
 chflags nohidden ~/Library
 
 killall Finder Dock
+
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
