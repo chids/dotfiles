@@ -1,4 +1,4 @@
-brew install nmap wget maven curl git-flow
+brew install nmap wget maven curl git
 # Mostly copied from: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
 defaults write com.apple.dock no-glass -bool true
