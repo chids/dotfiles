@@ -1,6 +1,6 @@
 #!/bin/bash
+brew install nmap wget maven curl git brew-cask
 
-ln -si ~/dotfiles/bash/bashrc ~/.bashrc
-ln -si ~/dotfiles/bash/profile ~/.profile
-ln -si ~/dotfiles/vim ~/.vim
-ln -si ~/dotfiles/vim/vimrc ~/.vimrc
+./osx.sh
+
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
