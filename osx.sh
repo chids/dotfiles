@@ -3,8 +3,6 @@
 sudo systemsetup -setrestartfreeze on
 sudo pmset -a sms 0
 
-launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
-
 defaults write com.apple.dock no-glass -bool true
 defaults write com.apple.screencapture disable-shadow -bool true
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
